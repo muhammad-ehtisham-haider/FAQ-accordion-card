@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1
+    /css/fontawesome.min.css"
+     integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" 
+     crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="left">
+            <div class="pic-one">
+                <img src="images/illustration-woman-online-desktop.svg" alt="">
+            </div>
+            <div class="pic-two">
+                <img src="images/illustration-box-desktop.svg" alt="">
+            </div>
+            
+        </div>
+        <div class="right">
+            <h1>FAQ</h1>
+            <div id="first-list">
+                <ul>
+                    <li>  
+                        <div class="para-one" onclick="setProperty()" > <p onclick="rotateImage()">How many team member can I invite?</p> </div>
+                        <div class="abc"  onclick="setProperty()"><img onclick="rotateImage()"  id="arrowOne" src="images/icon-arrow-down.svg" alt=""></div>
+                       </li>
+                       <div id="ans-one" style="display: none;" ><p >you can invite ten to twenty members </p></div>
+                       <hr>                
+
+                        <li><div class="para-one" onclick="setPropertytwo()"><p onclick="rotateImageTwo()">What is the maximum file upload size?</p> </div>
+                            <div class="abc"  onclick="setPropertytwo()"><img onclick="rotateImageTwo()"  id="arrowTwo" src="images/icon-arrow-down.svg" alt=""></div>
+                           </li>
+                           <div id="ans-two" style="display: none;" ><p >No more then 2GB. All files in your account must fit your allotted space. </p></div>
+                           <hr>
+
+                           <li><div class="para-one" onclick="setPropertythree()"><p onclick="rotateImageThree()">How I do reset my password?</p> </div>
+                            <div class="abc"  onclick="setPropertythree()"><img onclick="rotateImageThree()"  id="arrowThree" src="images/icon-arrow-down.svg" alt=""></div>
+                           </li>
+                           <div id="ans-three" style="display: none;" ><p >You can reset your password by using the recovery email address. </p></div>
+                           <hr>
+
+                           <li><div class="para-one" onclick="setPropertyfour()"><p onclick="rotateImagefour()">Can i cancel my subscription?</p> </div>
+                            <div class="abc"  onclick="setPropertyfour()"><img onclick="rotateImagefour()"  id="arrowFour" src="images/icon-arrow-down.svg" alt=""></div>
+                           </li>
+                           <div id="ans-four" style="display: none;" ><p > Yes you can. </p></div>
+                           <hr>
+
+                           <li><div class="para-one" onclick="setPropertyfive()"><p onclick="rotateImagefive()">Can you provide additional support?</p> </div>
+                            <div class="abc"  onclick="setPropertyfive()"><img onclick="rotateImagefive()"  id="arrowFive" src="images/icon-arrow-down.svg" alt=""></div>
+                           </li>
+                           <div id="ans-five" style="display: none;" ><p >Yes we can provide additional support. </p></div>
+                           <hr>
+                </ul>
+               
+            </div>
+        
+          
+
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

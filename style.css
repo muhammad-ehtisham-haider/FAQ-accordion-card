@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1440px) {
+
+    body{
+        background:linear-gradient(hsl(273, 75%, 66%) ,  hsl(240, 73%, 65%)) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+    main{
+        background-color: white;
+        width: 870px;
+        height: 450px;
+        border-radius: 20px;
+        display: flex;
+    }
+    .left{
+        background-image: url(images/bg-pattern-desktop.svg);
+        background-position: 106% 64% ;
+        background-repeat: no-repeat;
+        width: 50%;
+        border-radius: 20px 0 0 20px ;
+    }
+    .pic-one{
+        overflow: hidden;
+    }
+    .left .pic-one img{
+        margin-top: 50px;
+        margin-left: -79px;
+    }
+    .left .pic-two img{
+        position: absolute;
+        margin-top: -230px;
+        margin-left: -90px;
+    }
+    .right{
+        width: 50%;
+        border-radius: 0 20px 20px 0;
+        padding: 50px;
+        overflow:hidden;
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    
+    .para-one p:hover{
+        cursor: pointer;
+        color: orange;
+    }
+    .abc img:hover{
+        cursor: pointer;
+    }
+    hr{
+        margin: 10px 0;
+    }
+    #first-list{
+        margin-top: 30px;
+    }
+    #ans-one, #ans-two, #ans-three, #ans-four, #ans-five{
+        color: hsl(240, 6%, 50%);
+        margin-top: 10px;
+    }    
+}
+
